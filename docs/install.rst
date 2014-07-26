@@ -7,7 +7,7 @@ This documentation currently focuses on installing Cohesion on a Debian/Ubuntu s
 Requirements
 ============
 
-Once PHP is installed and set up adding additional libraries will be handled by Composer but there're still a few things you need to install yourself before then.
+Once PHP is installed and set up adding additional libraries will be handled by Composer but there are still a few things you need to install yourself before then.
 
 * PHP version 5.4 or above
 * PHP-FPM

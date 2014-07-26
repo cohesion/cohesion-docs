@@ -6,7 +6,7 @@ Dependency Injection
 Dependency Injection simplified
 ===============================
 
-If you're not aware of what dependency injection is you can `read about it on Wikipedia <http://en.wikipedia.org/wiki/Dependency_injection>`_. But if you do you might get a bit scared off because they make it sound quite complex when it's really actually quite simple. The idea is that rather than hardcoding the other classes your class will use it takes them in via the constructor parameters or a setter method.
+If you're not aware of what dependency injection is you can `read about it on Wikipedia <http://en.wikipedia.org/wiki/Dependency_injection>`_. But if you do you might get a bit scared off because they make it sound quite complex when it's really actually quite simple. The idea is that rather than hard coding the other classes your class will use it takes them in via the constructor parameters or a setter method.
 
 For example rather than in your class creating a MySQL connection to talk to the database you can specify that your class needs an instance of something that implements the ``Database`` interface and then it will be up to the code that calls your class to pass in the instance.
 

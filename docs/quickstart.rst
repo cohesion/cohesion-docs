@@ -1,7 +1,7 @@
 Quickstart
 **********
 
-After installing a clean Cohestion project you should modify your composer.json file and set the project name etc for your project.
+After installing a clean Cohesion project you should modify your composer.json file and set the project name etc for your project.
 
 You main application code will go into the ``src/`` directory. You should create separate subdirectories within that folder for each of your services.
 
@@ -235,5 +235,5 @@ For example if we wanted to use a cache we could add a constructor like this:
         // ...
     }
 
-We don't need to change any code anywhere else other than making sure that the Cache is set up propperly in the configuration files.
+We don't need to change any code anywhere else other than making sure that the Cache is set up properly in the configuration files.
 
