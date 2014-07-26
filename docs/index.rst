@@ -1,22 +1,25 @@
-.. Cohesion documentation master file, created by
-   sphinx-quickstart on Wed Jul 23 10:25:04 2014.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+Cohesion PHP Framework
+######################
 
-Welcome to Cohesion's documentation!
-====================================
+The primary objective of this framework is to provide a simple framework to help developers create good clean PHP code. It forces developers to write code that follows many common software development principles.
 
-Contents:
+Cohesion is more than just a Framework, it's a development guideline that tries to enforce best practices to improve mantainability.
+
+Contents
+========
 
 .. toctree::
    :maxdepth: 2
 
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   intro
+   install
+   quickstart
+   structure
+   config
+   di
+   routing
+   templating
+   errors
+   utils
+   examples
 
