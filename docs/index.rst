@@ -22,4 +22,6 @@ Contents
    errors
    utils
    examples
+   contribute
+
 
