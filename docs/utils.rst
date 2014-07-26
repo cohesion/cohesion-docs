@@ -1,7 +1,7 @@
 Utility Classes
 ***************
 
-Cohesion comes with several extremely lightweight utility classes such as input handling, database interaction, configuration, and many more. More will be added over time and I'm always happy to receive pull requests additional utilities.
+Cohesion comes with several extremely lightweight utility classes such as input handling, database interaction, configuration, and many more. More will be added over time and I'm always happy to receive pull requests with additional utilities.
 
 
 Database Interaction
