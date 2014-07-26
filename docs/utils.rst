@@ -7,7 +7,7 @@ Cohesion comes with several extremely lightweight utility classes such as input 
 Database Interaction
 ====================
 
-A MySQL database library is provided to provide safe interaction with MySQL databases. The database class includes support for master/slave queries, transactions, named variables, as well as many other features.
+A MySQL database library is included to provide safe interaction with MySQL databases. The database class includes support for master/slave queries, transactions, named variables, as well as many other features.
 
 The Database library isn't an ORM it requires you to write SQL statements. This allows for better performance optimization and forces you to think about what SQL will actually be executed.
 
