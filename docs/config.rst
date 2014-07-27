@@ -23,7 +23,7 @@ Each Service that you create will get a copy of the ``application`` section. The
 Environment specific configurations
 ===================================
 
-For environment specific configurations such as different database settings, etc for your dev, staging and production environments. These are just examples you can have separate configuration for what ever different environments you might have. Simply create additional configuration files in the form ``{environment}-conf.json``. For example, ``local-conf.json`` or ``production-conf.json``.
+For environment specific configurations such as different database settings, etc for your dev, staging and production environments. These are just examples you can have separate configuration for whatever different environments you might have. Simply create additional configuration files in the form ``{environment}-conf.json``. For example, ``local-conf.json`` or ``production-conf.json``.
 
 Again these are cascaded so you only need to include the settings that are different for that environment and it will get the rest of the settings from your ``default-conf.json`` and the ``cohesion-default-conf.json``.
 
