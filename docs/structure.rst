@@ -31,7 +31,7 @@ DAOs contain all the logic to store and retrieve objects and data from external 
 Controllers
 ===========
 
-The Controllers are the external facing code that access the input variables and returns the output of the relevant view. The Controller handles the authentication, accesses the relevant Handler(s) then constructs the relevant view. It doesn't contain any business logic including authorisation.
+The Controllers are the external facing code that access the input variables and returns the output of the relevant view. The Controller handles the authentication, accesses the relevant Service(s) then constructs the relevant view. It doesn't contain any business logic including authorisation.
 
 
 Views

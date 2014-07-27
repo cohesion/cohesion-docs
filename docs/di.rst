@@ -24,7 +24,7 @@ The dependency injection relies heavily on `PHP Reflection <http://www.php.net/m
 Creating a Service
 ------------------
 
-created the Service constructor uses the Data Access Factory to create a DAO for that Service. For example, the UserService should only ever use the UserDAO and shouldn't have access to any other DAOs therefore when you create a UserService it will set the object parameter ``dao`` to an instance of the UserDAO.
+The Service Factory is used to create instances of services for your application to use. It makes sure that the service knows who the current user is and passes in the application configuration. When a service is created the Service constructor uses the Data Access Factory to create a DAO for that Service. For example, the ``UserService`` should only ever use the ``UserDAO`` and shouldn't have access to any other DAOs therefore when you create a ``UserService`` it will set the object parameter ``dao`` to an instance of the ``UserDAO``.
 
 
 Creating DAOs
@@ -50,5 +50,5 @@ DAOs are created using the Data Access Factory. It will inspect the constructor 
 Creating Utilities
 ------------------
 
-If a utility implement the ``Util`` interface you can create instances of that utility using the Util Factory which will construct that util using the configuration set in the config.
+If a utility implements the ``Util`` interface you can create instances of that utility using the Util Factory which will construct that utility using the configuration set in the config.
 

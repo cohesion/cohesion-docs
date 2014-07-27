@@ -6,7 +6,7 @@ All errors should throw exceptions and only be caught at a point in the code tha
 Exceptions
 ==========
 
-You should create your own exceptions for application so that they can be handled appropriately. Cohesion specifies a ``UserSafeException``. You should use an implemenation of a ``UserSafeException`` for any errors that are safe for the user to see. This includes things such as invalid input etc. The message of ``UserSafeException``\s are displayed back to the user.
+You should create your own exceptions for your application so that they can be handled appropriately. Cohesion specifies a ``UserSafeException``. You should use an implemenation of a ``UserSafeException`` for any errors that are safe for the user to see. This includes things such as invalid input etc. The message of ``UserSafeException``\s are displayed back to the user.
 
 Error Output
 ============
