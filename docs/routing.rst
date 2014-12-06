@@ -4,9 +4,9 @@ Routing
 Route matching
 ==============
 
-The current routing doesn't get specified but instead in inferred by the class and function names of the Controllers.
+The current routing doesn't get specified but instead in inferred by the path, class and function names of the Controllers.
 
-Based on ``/{controller}/{function}/{var}``. For example ``/user/list/all`` would call ``UserController->list('all')``.
+Based on ``/{directory}/../{controller}/{function}/{var}``. For example ``/user/list/all`` would call ``UserController->list('all')``.
 
 hyphens (``-``) in the path are used as word separators so that it can match the correct capitalisation of controller and function names. ``/contact-us`` will match ``ContactUsController``.
 
@@ -57,10 +57,9 @@ Here's an example of a controller class and the url -> call matches.
 Sub directories
 ---------------
 
-Cohesion doesn't currently support subdirectories of controllers and just matches the controller name, but you can add extra "paths" before the controller that will just be ignored. This could be useful for SEO purposes. This functionality may change in the future though.
+Cohesion will itterate through the URI components and will first try to find a controller with the name of the component, then it will look to see if there's a directory with that name and move on to the next URI component.
 
-* ``/some/random/path/foo/bar/abc/def`` -> ``FooController->bar('abc', 'def');``
-  and from there you can process the url and make different decisions based on the prefixed path.
+* ``/some/path/foo/bar/abc/def`` will match the file ``controllers/some/path/FooController.php`` and run ``FooController->bar('abc', 'def');``
 
 
 Redirects
