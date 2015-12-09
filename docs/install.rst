@@ -24,7 +24,7 @@ Installing PHP and required extensions
 
 Install APCu for fast access caching::
 
-   sudo pecl install apcu-beta
+   sudo pecl install apcu
 
 
 You'll most likely have to add the extension to your php.ini::
